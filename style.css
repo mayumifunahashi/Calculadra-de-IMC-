@@ -1,3 +1,19 @@
-body {
-    background: purple;
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle at 26.78% -13.78%, #afdbfa 0, #b4dafc 5.56%, #bad8fd 11.11%, #c0d7fd 16.67%, #c6d5fd 22.22%, #cdd3fc 27.78%, #d3d2fa 33.33%, #d9d0f8 38.89%, #dfcff5 44.44%, #e5cdf2 50%, #eaccee 55.56%, #efcaea 61.11%, #f3c9e6 66.67%, #f7c8e1 72.22%, #fac8dc 77.78%, #fcc7d7 83.33%, #fec7d3 88.89%, #ffc7ce 94.44%, #ffc8c9 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    backdrop-filter: blur (1px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 30vw;
+    height: 20vw;
+
+
+
 }

@@ -1,50 +1,67 @@
-main {
+body {
     width: 100vw;
     height: 100vh;
-    background-image: radial-gradient(circle at 26.78% -13.78%, #afdbfa 0, #b4dafc 5.56%, #bad8fd 11.11%, #c0d7fd 16.67%, #c6d5fd 22.22%, #cdd3fc 27.78%, #d3d2fa 33.33%, #d9d0f8 38.89%, #dfcff5 44.44%, #e5cdf2 50%, #eaccee 55.56%, #efcaea 61.11%, #f3c9e6 66.67%, #f7c8e1 72.22%, #fac8dc 77.78%, #fcc7d7 83.33%, #fec7d3 88.89%, #ffc7ce 94.44%, #ffc8c9 100%);
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-size: 100vw;
+    font-family: 'Lateef', cursive;
 }
 
+
 #container {
-    backdrop-filter: blur (1px);
-    -webkit-backdrop-filter: blur(10px);
     width: 40vw;
     height: 30vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: #d3d2fa;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 
 }
 
 #titulo {
     text-align: center;
     font-size: 2rem;
-    
+
 }
 
 .input {
     display: flex;
-    
+
 
 
 }
 
 .input label {
-font-size: 1.1rem;
+    font-size: 1.1rem;
 }
+
+.input input {
+    border-radius: 5px;
+    height: 3vh;
+}
+
 
 #calcular button {
     width: 30vw;
     height: 5vh;
+    background: whitesmoke;
+    border-radius: 10px;
+    font-size: 1.3rem;
 }
 
 #resultado {
     background-color: whitesmoke;
     width: 30vw;
     height: 15vh;
+    border-radius: 10px;
 }

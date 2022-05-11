@@ -17,13 +17,14 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background: #d3d2fa;
 
 }
 
 #titulo {
     text-align: center;
     font-size: 2rem;
-    margin-bottom: ;
+    
 }
 
 .input {
@@ -35,4 +36,15 @@ main {
 
 .input label {
 font-size: 1.1rem;
+}
+
+#calcular button {
+    width: 30vw;
+    height: 5vh;
+}
+
+#resultado {
+    background-color: whitesmoke;
+    width: 30vw;
+    height: 15vh;
 }

@@ -4,12 +4,12 @@
 <br></br>
 
 
-<h2 align="center"> Descrição do projeto </h2>
+<h2 align="center"> :bookmark_tabs: Descrição do projeto </h2>
 
 <p> O projeto consise na criação de uma calculadora para o cálculo de IMC (Índice de Massa Corporal) . Foi utilizado HTML, CSS e JavaScipt para sua conclusão. O objetivo deste projeto é melhorar minhas habiliades principalmente com JavaScrip. </p>
+<p> :file_folder: Link para vizulaizar no navegador : https://calculadora-de-imc-seven.vercel.app/ <p/>
 <br></br>
 <h2 align = "center" >:hammer: Funcionalidades do projeto</h2>
-
 - `Funcionalidade 1`: Alternanar Divs
 - <p> Ao clicar nos botões o usuário será direcionado a sua próxima tela </p>
   
@@ -28,6 +28,6 @@
 <br></br>
 -Obesidade Grave : > 40
 <h3>Autora</h3>
- <img src="https://avatars.githubusercontent.com/u/100293266?v=4" width=115><br><sub>Jéssica Mayumi Funahashi </sub>](https://github.com/mayumifunahashi)  
-<br></br>
+ <img src="https://avatars.githubusercontent.com/u/100293266?v=4"width=115><br><sub>Jéssica Mayumi Funahashi</sub>(https://github.com/mayumifunahashi)  
+
 <p align="center">:construction: Projeto finalizado :construction:</p>

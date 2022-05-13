@@ -10,7 +10,14 @@
 <br></br>
 <h2 align = "center" >:hammer: Funcionalidades do projeto</h2>
 
-- `Funcionalidade 1`: descrição da funcionalidade 1
-- `Funcionalidade 2`: descrição da funcionalidade 2
-- `Funcionalidade 2a`: descrição da funcionalidade 2a relacionada à funcionalidade 2
-- `Funcionalidade 3`: descrição da funcionalidade 3
+- `Funcionalidade 1`: Alternanar Divs
+- <p> Ao clicar nos botões o usuário será direcionado a sua próxima tela </p>
+  
+- `Funcionalidade 2`: Cálculo IMC
+  <p> Nesta tela é possível fazer o cálculo do IMC informando sua altura e peso </p>
+  
+- `Funcionalidade 3`: Resultado
+- <p> Aqui temos o resultado do cãlculo que foi realizado. a mensagem que aparecerá dependerá do resultado do IMC, sendo da seguinte forma: </p>
+
+
+| [<img src="https://avatars.githubusercontent.com/u/100293266?v=4" width=115><br><sub>Jéssica Mayumi Funahashi </sub>](https://github.com/mayumifunahashi) 

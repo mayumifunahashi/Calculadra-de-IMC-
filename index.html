@@ -9,49 +9,49 @@
 </head>
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
 
 <body>
 
 
+
     <main>
-        <div id="container-principal">
+        <div>
             
-            <div id="titulo">
-                <h1> Calculadora de IMC</h1>
+            <div id="container-introdutorio">
+                <h2> Clique para calcular seu IMC</h2>
+                <button onclick="go(1,2)">Clique aqui!</button>
+            </div>
+            
+            <div id="container-principal">
+
+                <div id="titulo">
+                    <h1> Calculadora de IMC</h1>
+                </div>
+
+                <div class="input">
+                    <input type="text" placeholder="Digite seu nome">
+                </div>
+
+                <div class="input">
+                    <input type="number" placeholder="Altura">
+                </div>
+
+                <div class="input">
+                    <input type="number" placeholder="Peso">
+                </div>
+
+
+                <div>
+                    <button id="calcular" onclick="validacao()">Calcular</button>
+                </div>
+
+                <div id="resultado">
+                </div>
+
             </div>
 
-            <div class="input">
-                <input type="text" placeholder="Digite seu nome">              
-            </div>
-
-            <div class="input">
-                <input type="number" placeholder="Altura">
-            </div>
-
-            <div class="input">
-                <input type="number" placeholder="Peso">
-            </div>
-
-
-            <div >
-                <button id="calcular" onclick="validacao()">Calcular</button>
-            </div>
-
-            <div id="resultado">
-            </div>
-
+            
         </div>
-
-        <div id="contaier-introdutorio">
-            <h2> Clique  para calcular seu IMC</h2>
-            <button onclick="go(1,2)">Clique aqui!</button>
-
-        </div>
-
-
 
     </main>
 

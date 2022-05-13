@@ -28,6 +28,6 @@
 <br></br>
 -Obesidade Grave : > 40
 <h3>Autora</h3>
- [<img src="https://avatars.githubusercontent.com/u/100293266?v=4" width=115><br><sub>Jéssica Mayumi Funahashi </sub>](https://github.com/mayumifunahashi)  
+ <img src="https://avatars.githubusercontent.com/u/100293266?v=4" width=115><br><sub>Jéssica Mayumi Funahashi </sub>](https://github.com/mayumifunahashi)  
 <br></br>
 <p align="center">:construction: Projeto finalizado :construction:</p>

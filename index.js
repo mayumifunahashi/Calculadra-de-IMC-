@@ -1,137 +1,96 @@
+const firstDiv = document.querySelector('.first-step');
+const secondDiv = document.querySelector('.second-step');
+const finalDiv = document.querySelector('.final-step');
 
- 
-const firstDiv = document.querySelector('#container-introdutorio');
-    const secondDiv = document.querySelector('#container-principal');
-    
-
-    function go(currentStep,nextStep)
+function go(currentStep,nextStep)
+{
+    let dNone, dBlock;
+    if(currentStep == 1)
     {
-        let dNone, dBlock;
-        if(currentStep == 1)
-        {
-            dNone = firstDiv;
-        }
-        else if(currentStep == 2)
-        {
-            dNone = secondDiv;
-        }
-        
-        
-        dNone.style.display = 'none';
-
-        if(nextStep == 1)
-        {
-            dBlock = firstDiv;
-        }
-        else if(nextStep == 2)
-        {
-            dBlock = secondDiv;
-        }
-        
-        dBlock.style.display = 'block';
+        dNone = firstDiv;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*function go (comeco, final) {
-    let = dNone, dBlcock;
-
-    if (comeco == 1){
-        dNone = primeiraTela;
-
-    } else (comeco == 2) {
-        dNone = segundaTela;
+    else if(currentStep == 2)
+    {
+        dNone = secondDiv;
     }
-
+    else
+    {
+        dNone = finalDiv;
+    }
+    
     dNone.style.display = 'none';
 
-
-    if (final == 1){
-        dBlock = primeiraTela;
-
-    } else (final == 2) {
-        dBlock = segundaTela;
+    if(nextStep == 1)
+    {
+        dBlock = firstDiv;
     }
-
+    else if(nextStep == 2)
+    {
+        dBlock = secondDiv;
+    }
+    else
+    {
+        dBlock = finalDiv;
+    }
     dBlock.style.display = 'block';
-
-
-    const primeiraTela = document.getElementById('container-introdutorio');
-const segundaTela = document.getElementById('container-princial');
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-/*function go (divAtual, divSeguinte) {
-    let = displayNone, displayBlock;
-
-    /if(divAtual ==1) {
-        displayNone = segundaTela;
-    } else  (divAtual == 2) {
-        displayBlock = divSeguinte;
-    }
-    
-    displayNone.style.display = 'none';
-     
-    if(divSeguinte ==2) {
-        displayBlock = primeiraTela;
-    } else  (divSeguinte ==2) {
-        displayBlock = divSeguinte;
-    }
-
-    displayBlock.style.display = 'block'
 }
 
-function validacao {
-   const nome = document.getElementById('nome');
-   const altura = document.getElementById('altura');
-   
-} */
+function validate()
+{
+    const peso   = document.getElementById('peso');
+    const altura = document.getElementById('altura');
+    peso.style.border   = 'none';
+    altura.style.border = 'none';
+    if(!peso.value || !altura.value)
+    {
+        if(!peso.value && !altura.value)
+        {
+            peso.style.border = '1px solid red';
+            altura.style.border = '1px solid red';
+        }
+        else if(!peso.value)
+        {
+            peso.style.border = '1px solid red';
+        }
+        else
+        {
+            altura.style.border = '1px solid red';
+        }
+    }
+    else
+    {
+        let imc = peso.value / (altura.value * altura.value);
+        const result = document.getElementById('resultado');
+        if(imc < 18.5)
+        {
+            console.log('Magreza | Obesidade: 0');
+            result.style.color = 'yellow';
+            result.innerHTML = 'Magreza | Obesidade: 0';
+        }
+        else if(imc >= 18.5 && imc < 25)
+        {
+            console.log('Normal | Obesidade: 0');
+            result.style.color = 'green';
+            result.innerHTML = 'Normal | Obesidade: 0';
+        }
+        else if(imc >= 25 && imc < 30)
+        {
+            console.log('Sobrepeso | Obesidade: I');
+            result.style.color = 'yellow';
+            result.innerHTML = 'Sobrepeso | Obesidade: I';
+        }
+        else if(imc >= 30 && imc < 40)
+        {
+            console.log('Obesidade | Obesidade: II');
+            result.style.color = 'red';
+            result.innerHTML = 'Obesidade | Obesidade: II';
+        }
+        else
+        {
+            console.log('Obesidade grave | Obesidade: III');
+            result.style.color = 'black';
+            result.innerHTML = 'Obesidade grave | Obesidade: III';
+        }
+        go(2,3);
+    }
+}

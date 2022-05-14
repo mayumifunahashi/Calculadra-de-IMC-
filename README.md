@@ -10,14 +10,21 @@
 <p> :file_folder: Link para vizulaizar no navegador : https://calculadora-de-imc-seven.vercel.app/ <p/>
 <br></br>
 <h2 align = "center" >:hammer: Funcionalidades do projeto</h2>
+
 - `Funcionalidade 1`: Alternanar Divs
-- <p> Ao clicar nos botões o usuário será direcionado a sua próxima tela </p>
-  
+ <p> Ao clicar nos botões o usuário será direcionado a sua próxima tela </p>
+ 
+ ![Tela-inicial](https://user-images.githubusercontent.com/100293266/168404061-7dd85c2f-9008-4bf5-b0d5-2647c469184e.png)
+
 - `Funcionalidade 2`: Cálculo IMC
   <p> Nesta tela é possível fazer o cálculo do IMC informando sua altura e peso </p>
   
+  ![tela-secundaria](https://user-images.githubusercontent.com/100293266/168404079-2306d8ab-d65e-46d1-a72a-f857c16f1168.png)
 - `Funcionalidade 3`: Resultado
-- <p> Aqui temos o resultado do cãlculo que foi realizado. a mensagem que aparecerá dependerá do resultado do IMC, sendo da seguinte forma: </p>
+ <p> Aqui temos o resultado do cãlculo que foi realizado. a mensagem que aparecerá dependerá do resultado do IMC, sendo da seguinte forma: </p>
+
+![tela-final](https://user-images.githubusercontent.com/100293266/168404106-5502b0b3-dd3d-41da-a471-bf6960b0b4c1.png)
+
 -Magreza = < 18.5
 <br></br>
 -Normal: >= 18.5 ou < 25
@@ -28,6 +35,9 @@
 <br></br>
 -Obesidade Grave : > 40
 <h3>Autora</h3>
- <img src="https://avatars.githubusercontent.com/u/100293266?v=4"width=115><br><sub>Jéssica Mayumi Funahashi</sub>(https://github.com/mayumifunahashi)  
+
+[<img src="https://avatars.githubusercontent.com/u/100293266?v=4" width=115><br><sub>Jéssica Mayumi Funahashi</sub>](https://github.com/mayumifunahashi) 
+
+  
 
 <p align="center">:construction: Projeto finalizado :construction:</p>

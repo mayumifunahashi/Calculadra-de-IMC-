@@ -7,7 +7,7 @@
 <h2 align="center"> :bookmark_tabs: Descrição do projeto </h2>
 
 <p> O projeto consise na criação de uma calculadora para o cálculo de IMC (Índice de Massa Corporal) . Foi utilizado HTML, CSS e JavaScipt para sua conclusão. O objetivo deste projeto é melhorar minhas habiliades principalmente com JavaScrip. </p>
-<p> :file_folder: Link para visualizar no navegador : https://calculadora-de-imc-seven.vercel.app/ <p/>
+<p> :file_folder: Link para visualizar no navegador : https://mayumifunahashi.github.io/Calculadra-de-IMC-/ <p/>
 <br></br>
 <h2 align = "center" >:hammer: Funcionalidades do projeto</h2>
 
